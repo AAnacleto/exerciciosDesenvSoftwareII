@@ -15,7 +15,7 @@ public class Principal {
 		System.out.println("deseja mudar alguma palavra?(Informe utilizando SIM ou NAO)");
 		String opcao = entrada.nextLine(); 
 		if(opcao.equalsIgnoreCase("SIM")) {
-			System.out.println("Informe a palavra que será trocada");
+			System.out.println("Informe a palavra que sera trocada");
 			word = entrada.nextLine();
 		    System.out.println("Informe a nova palavra");
 		    newWord = entrada.nextLine();
